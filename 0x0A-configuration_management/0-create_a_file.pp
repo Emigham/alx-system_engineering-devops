@@ -1,6 +1,6 @@
 # creating a file in /tmp directory
 
-file { 'school':
+file { '/tmp/school':
 	path => '/tmp/school',
 	permission => '0744',
 	owner => 'www-data',
